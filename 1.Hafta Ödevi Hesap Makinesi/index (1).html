@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+    <div id="hesapmak">
+    <table>
+      <tr><input type="text" id="ekran" /></tr>
+
+      <tr>
+        <td><input type="button" id="sayı" value="1" onclick="ekran.value+='1'"</td>
+        <td><input type="button" id="sayı" value="2" onclick="ekran.value+='2'"</td>
+        <td><input type="button" id="sayı" value="3" onclick="ekran.value+='3'"</td>
+        <td><input type="button" id="islem" value="+" onclick="ekran.value+='+'"</td>
+      </tr>
+      <tr>
+        <td><input type="button" id="sayı" value="4" onclick="ekran.value+='4'"</td>
+        <td><input type="button" id="sayı" value="5" onclick="ekran.value+='5'"</td>
+        <td><input type="button" id="sayı" value="6" onclick="ekran.value+='6'"</td>
+        <td><input type="button" id="islem" value="-" onclick="ekran.value+='-'"</td>
+      </tr>
+      <tr>
+        <td><input type="button" id="sayı" value="7" onclick="ekran.value+='7'"</td>
+        <td><input type="button" id="sayı" value="8" onclick="ekran.value+='8'"</td>
+        <td><input type="button" id="sayı" value="9" onclick="ekran.value+='9'"</td>
+        <td><input type="button" id="islem" value="*" onclick="ekran.value+='*'"</td>
+      </tr>
+      <tr>
+
+        <td><input type="button" id="temizle" value="C" onclick="ekran.value=''"</td>        
+        <td><input type="button" id="sayı" value="0" onclick="ekran.value+='0'"</td>
+        <td><input type="button" id="sonuc" value="=" onclick="ekran.value= eval (ekran.value)"></td>
+        <td><input type="button" id="islem" value="/" onclick="ekran.value+='/'"</td>
+      </tr>
+    </table>
+   </div>
+  </body>
+</html>
