@@ -1,0 +1,33 @@
+body {
+  background-color: #0E0D0F
+}
+p,h3,a{
+  color: rgb(235, 225, 225);
+  font-family: "Calibri Light", "Courier New", monospace;
+}
+h2{
+  color: rgb(37, 36, 36);
+  font-family: "Ink Free", "Courier New", monospace;
+ 
+}
+li {
+    color: rgb(8, 7, 7);
+  font-family: "Calibri Light", "Courier New", monospace;
+ 
+}
+#grad {
+  background-image: linear-gradient(rgb(102, 100, 100), white, rgb(88, 88, 226));
+}#grad2 {
+  background-image: linear-gradient(rgb(102, 100, 100), white, pink);
+}
+#grad3 {
+  background-image: linear-gradient(rgb(102, 100, 100), white, yellow);
+}
+#sonuc{
+  background-color: black;
+  color: white;
+}
+#result{
+    background-color: black;
+  color: white;
+}
