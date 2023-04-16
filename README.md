@@ -1,0 +1,2 @@
+# 7.hafta-redux
+ 
